@@ -1,11 +1,11 @@
 📊 Trader Performance vs Fear & Greed Index Analysis
 
-📌 Overview
+📌 Overview: 
 This project analyzes the relationship between trader performance and the Fear & Greed Index over time.
 By merging trading data with sentiment index data, we visualize how market emotions (fear or greed) may influence or correlate with trading outcomes.
 
 
-📂 Dataset
+📂 Dataset:
 We use two main datasets:
 
 Trader Data
@@ -20,7 +20,7 @@ Columns include:
 timestamp, value (Fear & Greed score), classification (e.g., Fear, Greed), date
 
 
-⚙️ Methodology
+⚙️ Methodology:
 1. Data Cleaning
 Converted timestamps into human-readable dates.
 Ensured numeric conversion for relevant columns.
@@ -40,12 +40,12 @@ Applied MinMaxScaler to scale trader_performance and fear_greed_value between 0 
 Created a time-series line plot to compare trends of trader performance and Fear & Greed Index.
 
 
-📈 Results & Insights
+📈 Results & Insights:
 The graph highlights periods where high greed aligns with positive trader performance and vice versa.
 Possible correlation patterns suggest that market sentiment could be a factor influencing trading outcomes.
 
 
-📈 Actionable Strategies for Smarter Trading
+📈 Actionable Strategies for Smarter Trading:
 Based on this analysis, here are three data-driven strategies:
 
 Strategy 1: Adopt the Elite Trader's Pattern. The most successful traders in this dataset follow a clear rule: Sell into fear, hold during greed. A practical application would be to use the Fear & Greed Index as a behavioral guide. When the index drops into "Fear," it's a signal to review long positions and consider taking profits or cutting losses. When the index rises to "Extreme Greed," it's a signal to resist the urge to sell and instead let profitable positions continue to grow.
